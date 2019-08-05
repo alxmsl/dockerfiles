@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:alpine
+FROM google/cloud-sdk:256.0.0-alpine
 MAINTAINER Alexey Maslov <alexey.y.maslov@gmail.com>
 
 RUN apk add --update --no-cache openjdk8-jre \
