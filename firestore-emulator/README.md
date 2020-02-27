@@ -12,7 +12,7 @@ $ docker build -t alxmsl/firestore-emulator:${PWD##*/} .
 ## Run
 
 ```
-docker run -e 'CLOUDSDK_CORE_PROJECT=test-project' -p '8080:8080' alxmsl/firestore-emulator:256 
+docker run -e 'CLOUDSDK_CORE_PROJECT=test-project' -p '8080:8080' alxmsl/firestore-emulator:282 
 ```
 
 ## Check
